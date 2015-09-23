@@ -1,0 +1,17 @@
+html, body {
+  background: #5A5A5A;
+  color: #D3D3D3;
+  font-family: Coda, Arial, sans-serif; }
+
+input {
+  border: 2px solid #D3D3D3;
+  background-color: #5A5A5A;
+  width: 30%;
+  height: 3em; }
+
+button {
+  border: 1.5px solid #D3D3D3;
+  background-color: #5A5A5A;
+  border-radius: .3em;
+  height: 2em;
+  color: #D3D3D3; }

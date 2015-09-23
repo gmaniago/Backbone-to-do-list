@@ -2,16 +2,18 @@
 <html>
 <head>
 	<title>BACKBONE TO DO</title>
+	<link href="https://fonts.googleapis.com/css?family=Istok+Web|Comfortaa|Coda" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="/styles/main.sass.css">
 </head>
 <body>
 
 	<h1>TO DO LIST</h1>
-	<form id="toDoform">
-		<input type="text" placeholder=" type to do items here..." id="toDoInput">
+	<form id="appForm">
+		<input type="text" placeholder=" type to do items here..." id="appInput">
 		<button>add todo</button>
 	</form>
+	<div id="applist"></div>
 
-	<div id="toDoList"></div>
 	<script type="text/javascript" src="scripts/bundle.js"></script>
 
 	<script type="text/template" id="list-row">
