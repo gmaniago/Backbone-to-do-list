@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BACKBONE TO DO</title>
+</head>
+<body>
+
+	<h1>TO DO LIST</h1>
+	<form id="toDoform">
+		<input type="text" placeholder=" type to do items here..." id="toDoInput">
+		<button>add todo</button>
+	</form>
+
+	<div id="toDoList"></div>
+	<script type="text/javascript" src="scripts/bundle.js"></script>
+
+	<script type="text/template" id="list-row">
+		<li><%= item%> <button>edit</button></li>
+	</script>
+</body>
+</html>
